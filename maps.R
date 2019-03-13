@@ -1,6 +1,9 @@
-library(plyr)
-library(ggplot2)
-library(maptools)
+# install dependencies
+source("global-libraries.R")
+
+#library(plyr)
+#library(ggplot2)
+#library(maptools)
 # Load the flow data required – origin and destination points are needed.
 
 input<-read.table("wu03ew_v1.csv", sep=",", header=T)
